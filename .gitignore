@@ -1,1 +1,5 @@
+# Ignore all the files ending with .tmp
 *.tmp
+
+# Track only the ignored file
+!test.tmp
