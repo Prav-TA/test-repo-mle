@@ -1,0 +1,309 @@
+Script started on 2025-04-11 11:20:32+00:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="135" LINES="38"]
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ [H[2J(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git brn[Kanch
+[?2004l[?1h=* [32mdev/assignment_1[m[m
+  main[m[m
+[K[?1l>[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git branch testing
+[?2004l[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git branch testing[K
+[?2004l[?1h=* [32mdev/assignment_1[m[m
+  main[m[m
+  testing[m[m
+[K[?1l>[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git checkout testing
+[?2004lSwitched to branch 'testing'
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ vim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"test.rb" 1L, 23B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[32mThis[m is a test.rb file
+[94m~                                                                                                                                      [3;1H~                                                                                                                                      [4;1H~                                                                                                                                      [5;1H~                                                                                                                                      [6;1H~                                                                                                                                      [7;1H~                                                                                                                                      [8;1H~                                                                                                                                      [9;1H~                                                                                                                                      [10;1H~                                                                                                                                      [11;1H~                                                                                                                                      [12;1H~                                                                                                                                      [13;1H~                                                                                                                                      [14;1H~                                                                                                                                      [15;1H~                                                                                                                                      [16;1H~                                                                                                                                      [17;1H~                                                                                                                                      [18;1H~                                                                                                                                      [19;1H~                                                                                                                                      [20;1H~                                                                                                                                      [21;1H~                                                                                                                                      [22;1H~                                                                                                                                      [23;1H~                                                                                                                                      [24;1H~                                                                                                                                      [25;1H~                                                                                                                                      [26;1H~                                                                                                                                      [27;1H~                                                                                                                                      [28;1H~                                                                                                                                      [29;1H~                                                                                                                                      [30;1H~                                                                                                                                      [31;1H~                                                                                                                                      [32;1H~                                                                                                                                      [33;1H~                                                                                                                                      [34;1H~                                                                                                                                      [35;1H~                                                                                                                                      [36;1H~                                                                                                                                      [37;1H~                                                                                                                                      [m[38;118H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;108H/[1;1H[38;109Hc[1;1H[38;110Hc[1;1H[38;111Hc[1;1H[38;112Hc[1;1H[38;113H/[1;1H[38;114Hc[1;1H[38;115Hc[1;1H[38;116Hc[1;1H[38;117Hc[1;1H[38;108H          [1;1H[?25h[?25l[38;108H/[1;1H[38;109H1[1;1H[38;110H8[1;1H[38;111H1[1;1H[38;112H8[1;1H[38;113H/[1;1H[38;114H1[1;1H[38;115H8[1;1H[38;116H1[1;1H[38;117H8[1;1H[38;108H          [1;1H[27m[23m[29m[m[H[2J[1;1H[38;5;121mThis[m is a test.rb file
+[94m~                                                                                                                                      [3;1H~                                                                                                                                      [4;1H~                                                                                                                                      [5;1H~                                                                                                                                      [6;1H~                                                                                                                                      [7;1H~                                                                                                                                      [8;1H~                                                                                                                                      [9;1H~                                                                                                                                      [10;1H~                                                                                                                                      [11;1H~                                                                                                                                      [12;1H~                                                                                                                                      [13;1H~                                                                                                                                      [14;1H~                                                                                                                                      [15;1H~                                                                                                                                      [16;1H~                                                                                                                                      [17;1H~                                                                                                                                      [18;1H~                                                                                                                                      [19;1H~                                                                                                                                      [20;1H~                                                                                                                                      [21;1H~                                                                                                                                      [22;1H~                                                                                                                                      [23;1H~                                                                                                                                      [24;1H~                                                                                                                                      [25;1H~                                                                                                                                      [26;1H~                                                                                                                                      [27;1H~                                                                                                                                      [28;1H~                                                                                                                                      [29;1H~                                                                                                                                      [30;1H~                                                                                                                                      [31;1H~                                                                                                                                      [32;1H~                                                                                                                                      [33;1H~                                                                                                                                      [34;1H~                                                                                                                                      [35;1H~                                                                                                                                      [36;1H~                                                                                                                                      [37;1H~                                                                                                                                      [m[38;118H1,1[11CAll"test.rb" 1L, 23B[1;1H[?25h[?25l[38;108Hi[1;1H[38;108H [1;1H[38;1H[1m-- INSERT --[m[38;13H[K[38;118H1,1[11CAll[1;1H[?25h[?25l[1;1H[K[2;1H[38;5;121mThis[m is a test.rb file[2;23H[K[38;118H2[2;1H[?25h[?25liThis is a test.rb file[38;120H2[2;2H[?25h[?25l[38;5;121mThis[m is a test.rb file[2;23H[K[38;120H1[2;1H[?25h[?25l[38;120H2[2;2H[?25h[?25l[38;120H3[2;3H[?25h[?25l[38;120H4[2;4H[?25h[?25l[38;120H5[2;5H[?25h[?25l[38;120H6[2;6H[?25h[?25l[38;120H7[2;7H[?25h[?25l[38;120H8[2;8H[?25h[?25l[38;120H9[2;9H[?25h[?25l[38;120H10[2;10H[?25h[?25l[38;121H1[2;11H[?25h[?25l[38;121H2[2;12H[?25h[?25l[38;121H3[2;13H[?25h[?25l[38;121H4[2;14H[?25h[?25l[38;121H5[2;15H[?25h[?25l[38;121H6[2;16H[?25h[?25l[38;121H7[2;17H[?25h[?25l[38;121H8[2;18H[?25h[?25l[38;121H9[2;19H[?25h[?25l[38;120H20[2;20H[?25h[?25l[38;121H1[2;21H[?25h[?25l[38;121H2[2;22H[?25h[?25l[38;121H3[2;23H[?25h[?25l.[38;121H4[2;24H[?25h[?25l[38;121H5[2;25H[?25h[?25lM[38;121H6[2;26H[?25h[?25la[38;121H7[2;27H[?25h[?25lk[38;121H8[2;28H[?25h[?25li[38;121H9[2;29H[?25h[?25ln[38;120H30[2;30H[?25h[?25lg[38;121H1[2;31H[?25h[?25l[38;121H2[2;32H[?25h[?25ls[38;121H3[2;33H[?25h[?25lo[38;121H4[2;34H[?25h[?25lm[38;121H5[2;35H[?25h[?25le[38;121H6[2;36H[?25h[?25l[38;121H7[2;37H[?25h[?25lb[38;121H8[2;38H[?25h[?25lr[38;121H9[2;39H[?25h[?25la[38;120H40[2;40H[?25h[?25ln[38;121H1[2;41H[?25h[?25lc[38;121H2[2;42H[?25h[?25lh[38;121H3[2;43H[?25h[?25l[38;121H4[2;44H[?25h[?25l[38;121H3[2;43H[?25h[?25l[2;42H[K[38;121H2[2;42H[?25h[?25l[2;41H[K[38;121H1[2;41H[?25h[?25l[2;40H[K[38;121H0[2;40H[?25h[?25l[2;39H[K[38;120H39[2;39H[?25h[?25l[2;38H[K[38;121H8[2;38H[?25h[?25l[2;37H[K[38;121H7[2;37H[?25h[?25lc[38;121H8[2;38H[?25h[?25lh[38;121H9[2;39H[?25h[?25la[38;120H40[2;40H[?25h[?25ln[38;121H1[2;41H[?25h[?25lg[38;121H2[2;42H[?25h[?25le[38;121H3[2;43H[?25h[?25l[38;121H4[2;44H[?25h[?25lu[38;121H5[2;45H[?25h[?25ls[38;121H6[2;46H[?25h[?25li[38;121H7[2;47H[?25h[?25ln[38;121H8[2;48H[?25h[?25l[38;5;81musing[m[38;121H9[2;49H[?25h[?25l[38;120H50[2;50H[?25h[?25lt[38;121H1[2;51H[?25h[?25le[38;121H2[2;52H[?25h[?25ls[38;121H3[2;53H[?25h[?25lt[38;121H4[2;54H[?25h[?25li[38;121H5[2;55H[?25h[?25ln[38;121H6[2;56H[?25h[?25lg[38;121H7[2;57H[?25h[?25l[38;121H8[2;58H[?25h[?25l[38;121H7[2;57H[?25h[?25l[2;56H[K[38;121H6[2;56H[?25h[?25l[2;55H[K[38;121H5[2;55H[?25h[?25l[2;54H[K[38;121H4[2;54H[?25h[?25l[2;53H[K[38;121H3[2;53H[?25h[?25l[2;52H[K[38;121H2[2;52H[?25h[?25l[2;51H[K[38;121H1[2;51H[?25h[?25l[2;50H[K[38;121H0[2;50H[?25h[?25l[38;120H49[2;49H[?25h[?25l[38;120H50[2;50H[?25h[?25l[38;120H49[2;49H[?25h[?25lusin[2;48H[K[38;121H8[2;48H[?25h[?25l[2;47H[K[38;121H7[2;47H[?25h[?25l[2;46H[K[38;121H6[2;46H[?25h[?25l[2;45H[K[38;121H5[2;45H[?25h[?25l[2;44H[K[38;121H4[2;44H[?25h[?25lt[38;121H5[2;45H[?25h[?25lo[38;121H6[2;46H[?25h[?25l[38;121H7[2;47H[?25h[?25lt[38;121H8[2;48H[?25h[?25lh[38;121H9[2;49H[?25h[?25le[38;120H50[2;50H[?25h[?25l[38;121H1[2;51H[?25h[?25lf[38;121H2[2;52H[?25h[?25li[38;121H3[2;53H[?25h[?25ll[38;121H4[2;54H[?25h[?25le[38;121H5[2;55H[?25h[?25l[38;121H6[2;56H[?25h[?25li[38;121H7[2;57H[?25h[?25l[93min[m[38;121H8[2;58H[?25h[?25lins[38;121H9[2;59H[?25h[?25li[38;120H60[2;60H[?25h[?25ld[38;121H1[2;61H[?25h[?25le[38;121H2[2;62H[?25h[?25l[38;121H3[2;63H[?25h[?25lt[38;121H4[2;64H[?25h[?25le[38;121H5[2;65H[?25h[?25ls[38;121H6[2;66H[?25h[?25l[2;65H[K[38;121H5[2;65H[?25h[?25l[2;64H[K[38;121H4[2;64H[?25h[?25l[2;63H[K[38;121H3[2;63H[?25h[?25lb[38;121H4[2;64H[?25h[?25lr[38;121H5[2;65H[?25h[?25la[38;121H6[2;66H[?25h[?25ln[38;121H7[2;67H[?25h[?25lc[38;121H8[2;68H[?25h[?25lh[38;121H9[2;69H[?25h[?25l[2;68H[K[38;121H8[2;68H[?25h[?25l[2;67H[K[38;121H7[2;67H[?25h[?25l[2;66H[K[38;121H6[2;66H[?25h[?25l[2;65H[K[38;121H5[2;65H[?25h[?25l[2;64H[K[38;121H4[2;64H[?25h[?25l[2;63H[K[38;121H3[2;63H[?25h[?25lt[38;121H4[2;64H[?25h[?25le[38;121H5[2;65H[?25h[?25ls[38;121H6[2;66H[?25h[?25lt[38;121H7[2;67H[?25h[?25li[38;121H8[2;68H[?25h[?25ln[38;121H9[2;69H[?25h[?25lg[38;120H70[2;70H[?25h[?25l[38;121H1[2;71H[?25h[?25lb[38;121H2[2;72H[?25h[?25lr[38;121H3[2;73H[?25h[?25la[38;121H4[2;74H[?25h[?25ln[38;121H5[2;75H[?25h[?25lc[38;121H6[2;76H[?25h[?25lh[38;121H7[2;77H[?25h[?25l[3;1H[K[38;118H3,1 [3;1H[?25h[?25l[38;5;81m^S[m[38;120H2-3[3;3H[?25h[?25l[3;1H[K[38;120H1  [3;1H[?25h[38;1H[K[3;1H[?25l[38;108H^[[3;1H[38;108H  [3;1H[38;118H3,0-1[9CAll[3;1H[?25h[?25l[38;108H:[3;1H[38;108H[K[38;1H:[?25hwq![?25l[?2004l[>4;m"test.rb" 3L, 79B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git commit - [Kam "Made some change  [Kto test.rb in testing file"
+[?2004l[testing c36f94f] Made some changeto test.rb in testing file
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git stt[Katt[Kus
+[?2004lOn branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_git_session_part2[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ giot [K[K[Kt checkout a[Kmaster
+[?2004lerror: pathspec 'master' did not match any file(s) known to git
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git checkout master[K[K[K[Kin
+[?2004lSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ vim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"test.rb" 1L, 23B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[32mThis[m is a test.rb file
+[94m~                                                                                                                                      [3;1H~                                                                                                                                      [4;1H~                                                                                                                                      [5;1H~                                                                                                                                      [6;1H~                                                                                                                                      [7;1H~                                                                                                                                      [8;1H~                                                                                                                                      [9;1H~                                                                                                                                      [10;1H~                                                                                                                                      [11;1H~                                                                                                                                      [12;1H~                                                                                                                                      [13;1H~                                                                                                                                      [14;1H~                                                                                                                                      [15;1H~                                                                                                                                      [16;1H~                                                                                                                                      [17;1H~                                                                                                                                      [18;1H~                                                                                                                                      [19;1H~                                                                                                                                      [20;1H~                                                                                                                                      [21;1H~                                                                                                                                      [22;1H~                                                                                                                                      [23;1H~                                                                                                                                      [24;1H~                                                                                                                                      [25;1H~                                                                                                                                      [26;1H~                                                                                                                                      [27;1H~                                                                                                                                      [28;1H~                                                                                                                                      [29;1H~                                                                                                                                      [30;1H~                                                                                                                                      [31;1H~                                                                                                                                      [32;1H~                                                                                                                                      [33;1H~                                                                                                                                      [34;1H~                                                                                                                                      [35;1H~                                                                                                                                      [36;1H~                                                                                                                                      [37;1H~                                                                                                                                      [m[38;118H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[38;108H/[1;1H[38;109Hc[1;1H[38;110Hc[1;1H[38;111Hc[1;1H[38;112Hc[1;1H[38;113H/[1;1H[38;114Hc[1;1H[38;115Hc[1;1H[38;116Hc[1;1H[38;117Hc[1;1H[38;108H          [1;1H[?25h[?25l[38;108H/[1;1H[38;109H1[1;1H[38;110H8[1;1H[38;111H1[1;1H[38;112H8[1;1H[38;113H/[1;1H[38;114H1[1;1H[38;115H8[1;1H[38;116H1[1;1H[38;117H8[1;1H[38;108H          [1;1H[27m[23m[29m[m[H[2J[1;1H[38;5;121mThis[m is a test.rb file
+[94m~                                                                                                                                      [3;1H~                                                                                                                                      [4;1H~                                                                                                                                      [5;1H~                                                                                                                                      [6;1H~                                                                                                                                      [7;1H~                                                                                                                                      [8;1H~                                                                                                                                      [9;1H~                                                                                                                                      [10;1H~                                                                                                                                      [11;1H~                                                                                                                                      [12;1H~                                                                                                                                      [13;1H~                                                                                                                                      [14;1H~                                                                                                                                      [15;1H~                                                                                                                                      [16;1H~                                                                                                                                      [17;1H~                                                                                                                                      [18;1H~                                                                                                                                      [19;1H~                                                                                                                                      [20;1H~                                                                                                                                      [21;1H~                                                                                                                                      [22;1H~                                                                                                                                      [23;1H~                                                                                                                                      [24;1H~                                                                                                                                      [25;1H~                                                                                                                                      [26;1H~                                                                                                                                      [27;1H~                                                                                                                                      [28;1H~                                                                                                                                      [29;1H~                                                                                                                                      [30;1H~                                                                                                                                      [31;1H~                                                                                                                                      [32;1H~                                                                                                                                      [33;1H~                                                                                                                                      [34;1H~                                                                                                                                      [35;1H~                                                                                                                                      [36;1H~                                                                                                                                      [37;1H~                                                                                                                                      [m[38;118H1,1[11CAll"test.rb" 1L, 23B[1;1H[?25h[?25l[38;108H~@k[1;1H[38;108H   [1;2H[38;120H2[1;2H[?25h[?25l[38;108H~@k[1;2H[38;108H   [1;3H[38;120H3[1;3H[?25h[?25l[38;108H~@k[1;3H[38;108H   [1;4H[38;120H4[1;4H[?25h[?25l[38;108H~@k[1;4H[38;108H   [1;5H[38;120H5[1;5H[?25h[?25l[38;108H~@k[1;5H[38;108H   [1;6H[38;120H6[1;6H[?25h[?25l[38;108H~@k[1;6H[38;108H   [1;7H[38;120H7[1;7H[?25h[?25l[38;108H~@k[1;7H[38;108H   [1;8H[38;120H8[1;8H[?25h[?25l[38;108H~@k[1;8H[38;108H   [1;9H[38;120H9[1;9H[?25h[?25l[38;108H~@k[1;9H[38;108H   [1;10H[38;120H10[1;10H[?25h[?25l[38;108H~@k[1;10H[38;108H   [1;11H[38;121H1[1;11H[?25h[?25l[38;108H~@k[1;11H[38;108H   [1;12H[38;121H2[1;12H[?25h[?25l[38;108H~@k[1;12H[38;108H   [1;13H[38;121H3[1;13H[?25h[?25l[38;108H~@k[1;13H[38;108H   [1;14H[38;121H4[1;14H[?25h[?25l[38;108H~@k[1;14H[38;108H   [1;15H[38;121H5[1;15H[?25h[?25l[38;108H~@k[1;15H[38;108H   [1;16H[38;121H6[1;16H[?25h[?25l[38;108H~@k[1;16H[38;108H   [1;17H[38;121H7[1;17H[?25h[?25l[38;108H~@k[1;17H[38;108H   [1;18H[38;121H8[1;18H[?25h[?25l[38;108H~@k[1;18H[38;108H   [1;19H[38;121H9[1;19H[?25h[?25l[38;108H~@k[1;19H[38;108H   [1;20H[38;120H20[1;20H[?25h[?25l[38;108H~@k[1;20H[38;108H   [1;21H[38;121H1[1;21H[?25h[?25l[38;108H~@k[1;21H[38;108H   [1;22H[38;121H2[1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H~@k[1;22H[38;108H   [1;22H[?25h[?25l[38;108H.[1;22H[38;108H [1;22H[?25h[?25l[38;108H^I[1;22H[38;108H  [1;22H[?25h[?25l[38;108H.[1;22H[38;108H [1;22H[?25h[?25l[38;108H^M[1;22H[38;108H  [1;22H[?25h[?25l[38;108Hi[1;22H[38;108H [1;22H[38;1H[1m-- INSERT --[m[38;13H[K[38;118H1,22[10CAll[1;22H[?25h[?25l.e[38;121H3[1;23H[?25h[?25le[1;23H[K[38;121H2[1;22H[?25h[?25l[38;121H3[1;23H[?25h[?25l.[38;121H4[1;24H[?25h[?25l[38;121H5[1;25H[?25h[?25lM[38;121H6[1;26H[?25h[?25la[38;121H7[1;27H[?25h[?25lk[38;121H8[1;28H[?25h[?25le[38;121H9[1;29H[?25h[?25l[1;28H[K[38;121H8[1;28H[?25h[?25li[38;121H9[1;29H[?25h[?25ln[38;120H30[1;30H[?25h[?25lg[38;121H1[1;31H[?25h[?25l[38;121H2[1;32H[?25h[?25la[38;121H3[1;33H[?25h[?25l[38;121H4[1;34H[?25h[?25lc[38;121H5[1;35H[?25h[?25lh[38;121H6[1;36H[?25h[?25la[38;121H7[1;37H[?25h[?25ln[38;121H8[1;38H[?25h[?25lg[38;121H9[1;39H[?25h[?25le[38;120H40[1;40H[?25h[?25l[38;121H1[1;41H[?25h[?25li[38;121H2[1;42H[?25h[?25l[93min[m[38;121H3[1;43H[?25h[?25li[1;42H[K[38;121H2[1;42H[?25h[?25l[93min[m[38;121H3[1;43H[?25h[?25lins[38;121H4[1;44H[?25h[?25li[38;121H5[1;45H[?25h[?25ld[38;121H6[1;46H[?25h[?25le[38;121H7[1;47H[?25h[?25lr[38;121H8[1;48H[?25h[?25l[1;47H[K[38;121H7[1;47H[?25h[?25l[38;121H8[1;48H[?25h[?25lm[38;121H9[1;49H[?25h[?25la[38;120H50[1;50H[?25h[?25li[38;121H1[1;51H[?25h[?25ln[38;121H2[1;52H[?25h[?25l[38;121H3[1;53H[?25h[?25lb[38;121H4[1;54H[?25h[?25lr[38;121H5[1;55H[?25h[?25la[38;121H6[1;56H[?25h[?25ln[38;121H7[1;57H[?25h[?25lc[38;121H8[1;58H[?25h[?25lh[38;121H9[1;59H[?25h[?25l[38;5;81m^S[m[38;120H60-61[1;61H[?25h[?25l[1;59H[K[38;120H59   [1;59H[?25h[38;1H[K[1;58H[?25l[38;108H^[[1;58H[38;108H  [1;59H[38;118H1,58[10CAll[1;58H[?25h[?25l[38;108H:[1;58H[38;108H[K[38;1H:[?25hwq![?25l[?2004l[>4;m"test.rb" 1L, 59B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ [K(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ git commit -am "Made other chang es in tets[K[Kst.rb inside main branch"[1P[1P[1P[1P[1P[1P[1@f[1@r[1@o[1@m
+[?2004l[main e052f09] Made other changes in test.rb from main branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ [7mgit log --oneline --decorate --g[27m[7mr[27m[7maph --all [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline --decorate --graph --all
+[A
+[?2004l[?1h=* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+:[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+:[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[K^?^?[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[H[2J[H* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K...skipping...
+* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[K::[K[7m(END)[27m[K[K[7m(END)[27m[K[H[2J[H[H[2J[H* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H* [33me052f09[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Made other changes in test.rb from main branch[m
+[31m|[m * [33mc36f94f[m[33m ([m[1;32mtesting[m[33m)[m Made some changeto test.rb in testing file[m
+[31m|[m * [33m542a51e[m[33m ([m[1;31morigin/dev/assignment_1[m[33m, [m[1;32mdev/assignment_1[m[33m)[m Re-add large file with LFS tracking[m
+[31m|[m * [33m4c4766f[m Remove large file from git history[m
+[31m|[m * [33mfc1f571[m Track large file with Git LFS[m
+[31m|[m * [33mf3d09e7[m Added script file my_git session[m
+[31m|[m[31m/[m  [m
+*   [33m42499de[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/Prav-TA/test-repo-m[m [33m[m[33m[m[1;31m[m[33m[m[1;31m[m[33m[mle To avoid merge conflit[m
+[33m|[m[34m\[m  [m
+[33m|[m * [33m91b9093[m Added untracked files[m
+* [34m|[m [33mb8ca9ed[m Initial commit to add test.rb and LICENSE file[m
+[34m|[m[34m/[m  [m
+* [33mc7639a6[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m, [m[1;31morigin/test_branch[m[33m)[m 1.Initial test_v2 file commit[m
+* [33me02510c[m Initial test_v2 file commit[m
+* [33m53cd9a5[m Two lines added in test.tmp[m
+* [33ma88ba60[m Ignore all .tmp files except test.tmp[m
+* [33m0b7a867[m Add .gitignore to ignore tmp files[m
+* [33m2b10d1b[m Assignment 1.1[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[?1l>
+[?2004h(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ [K[A[K(base) ]0;praveen@TIGER05662: /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[01;32mpraveen@TIGER05662[00m:[01;34m/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[00m$ [K(ba
