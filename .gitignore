@@ -1,5 +1,5 @@
-# Ignore all the files ending with .tmp
+# Ignore all the files ending with
 *.tmp
-
+*.csv
 # Track only the ignored file
 !test.tmp
