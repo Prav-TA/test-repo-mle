@@ -3,3 +3,4 @@
 *.csv
 # Track only the ignored file
 !test.tmp
+my_project/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv
