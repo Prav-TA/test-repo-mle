@@ -1,0 +1,6 @@
+name: my-project
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
