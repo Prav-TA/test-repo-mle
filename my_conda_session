@@ -38749,3 +38749,2100 @@ python-3.13.3-hf636f53_100_cp313: 1
 [?2004lexit
 
 Script done on 2025-04-14 16:45:34+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2025-04-15 06:29:14+00:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="132" LINES="21"]
+[?2004h([32mbase[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ (reverse-i-search)`': [Kc': conda a[7mc[27mtivate my_env(failed reverse-i-search)`': conda activate my_env[C[17Preverse-i-search)`i': g[7mi[27mt statusn': git pull orig[7min[27m dev/assignment_1 [22Pf': conda [7minf[27moo': conda [7minfo[27m([32mbase[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda info
+[?2004l
+     active environment : base
+    active env location : /home/praveen/miniforge3
+            shell level : 6
+       user config file : /home/praveen/.condarc
+ populated config files : /home/praveen/miniforge3/.condarc
+                          /home/praveen/.condarc
+          conda version : 24.11.3
+    conda-build version : not installed
+         python version : 3.12.7.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=skylake
+                          __conda=24.11.3=0
+                          __glibc=2.39=0
+                          __linux=5.15.167.4=0
+                          __unix=0=0
+       base environment : /home/praveen/miniforge3  (writable)
+      conda av data dir : /home/praveen/miniforge3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+          package cache : /home/praveen/miniforge3/pkgs
+                          /home/praveen/.conda/pkgs
+       envs directories : /home/praveen/miniforge3/envs
+                          /home/praveen/.conda/envs
+               platform : linux-64
+             user-agent : conda/24.11.3 requests/2.32.3 CPython/3.12.7 Linux/5.15.167.4-microsoft-standard-WSL2 ubuntu/24.04.2 glibc/2.39 solver/libmamba conda-libmamba-solver/24.9.0 libmambapy/1.5.9
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+[?2004h([32mbase[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda activate my_env
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda ac[K[Kconfig --h[Kget
+[?2004l--set auto_activate_base False
+--set auto_update_conda False
+--set changeps1 False
+--set channel_priority strict
+--add channels 'conda-forge'   # lowest priority
+--add create_default_packages 'numpy'
+--set env_prompt ({name})
+--set show_channel_urls True
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7m$ conda config --set auto_update_conda fa[27m[7ml[27m[7mse[27m[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ $ conda config --set auto_update_conda false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C fals[1Pe[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C false[K[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C false [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P false
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[1P false[7madd_pip_as_python_de[27m[7mp[27m[7mendency[27m false[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd_pip_as_python_dependency
+[?2004l$: command not found
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ $ conda config --set add_pip_as_python_dependency false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C add_pip_as_python_depe[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C add_pip_as_python_depen[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd_pip_as_python_depend[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd_pip_as_python_depende[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_pip_as_python_dependen[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_pip_as_python_dependenc[1P[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip_as_python_dependency[1P false[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cip_as_python_dependency [1Pfalse[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp_as_python_dependency f[1Palse[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_as_python_dependency fa[1Plse[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cas_python_dependency fal[1Pse[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs_python_dependency fals[1Pe[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_python_dependency false[K[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython_dependency false [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P false[1Pfalse[1Palse[1Plse[1Pse[1Pe[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mconda config --show ssl_verify[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --show ssl_verify
+[A
+[?2004lssl_verify: True
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set ssl_verify False[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set ssl_verify False
+[A
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify False[5Phow ssl_verify
+[?2004lssl_verify: False
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --show ssl_verifyet ssl_verify False[K[K[K[K[Ktruststore
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify truststore[10Phow ssl_verify
+[?2004lssl_verify: truststore
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --show ssl_verifyet ssl_verify truststore[K[K[K[K[K[K[K[K[K[KTrue
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify True[4Phow ssl_verifyet ssl_verify truststore[10Phow ssl_verify
+[?2004lssl_verify: True
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --remove-key ssl_verify[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --remove-key ssl_verify
+[A
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --remove-key ssl_verify[6Pshow[C[C[C[C[C[C[C[C[C[C[C
+[?2004lssl_verify: True
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ comd[K[Knda config add_default_package [1P[1P[1P[1@c[1@r[1@e[1@a[1@e[1@t[1P[1P[1@t[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[K[Ks pip
+[?2004lusage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: unrecognized arguments: create_default_packages pip
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config create_default_packages pip-create_default_packages pip [A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C-create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cacreate_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdcreate_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccreate_default_packages [1Ppip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccreate_default_packages p[1Pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdcreate_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set update_dependencies Tr[27m[7mu[27m[7me [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set update_dependencies True
+[A
+[?2004l
+CondaKeyError: 'update_dependencies': unknown parameter
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set update_dependencies True[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mconda config --set console colors[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set console colors
+[A
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --show[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --show
+[A
+[?2004ladd_anaconda_token: True
+add_pip_as_python_dependency: True
+aggressive_update_packages:
+  - ca-certificates
+  - certifi
+  - openssl
+allow_conda_downgrades: False
+allow_cycles: True
+allow_non_channel_urls: False
+allow_softlinks: False
+allowlist_channels: []
+always_copy: False
+always_softlink: False
+always_yes: None
+anaconda_upload: None
+auto_activate_base: False
+auto_stack: 0
+auto_update_conda: False
+bld_path: 
+changeps1: False
+channel_alias: https://conda.anaconda.org
+channel_priority: strict
+channel_settings: []
+channels:
+  - conda-forge
+client_ssl_cert: None
+client_ssl_cert_key: None
+clobber: False
+conda_build: {}
+console: colors
+create_default_packages:
+  - pip
+  - numpy
+croot: /home/praveen/miniforge3/conda-bld
+custom_channels:
+  pkgs/main: https://repo.anaconda.com
+  pkgs/r: https://repo.anaconda.com
+  pkgs/pro: https://repo.anaconda.com
+custom_multichannels:
+  defaults: 
+    - https://repo.anaconda.com/pkgs/main
+    - https://repo.anaconda.com/pkgs/r
+  local: 
+debug: False
+default_channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+default_python: 3.12
+default_threads: None
+denylist_channels: []
+deps_modifier: not_set
+dev: False
+disallowed_packages: []
+download_only: False
+dry_run: False
+enable_private_envs: False
+env_prompt: ({name})
+envs_dirs:
+  - /home/praveen/miniforge3/envs
+  - /home/praveen/.conda/envs
+envvars_force_uppercase: True
+error_upload_url: https://conda.io/conda-post/unexpected-error
+execute_threads: 1
+experimental: []
+extra_safety_checks: False
+fetch_threads: 5
+force: False
+force_32bit: False
+force_reinstall: False
+force_remove: False
+ignore_pinned: False
+json: False
+local_repodata_ttl: 1
+migrated_channel_aliases: []
+migrated_custom_channels: {}
+no_lock: False
+no_plugins: False
+non_admin_enabled: True
+notify_outdated_conda: True
+number_channel_notices: 5
+offline: False
+override_channels_enabled: True
+path_conflict: clobber
+pinned_packages: []
+pip_interop_enabled: False
+pkgs_dirs:
+  - /home/praveen/miniforge3/pkgs
+  - /home/praveen/.conda/pkgs
+proxy_servers: {}
+quiet: False
+register_envs: True
+remote_backoff_factor: 1
+remote_connect_timeout_secs: 9.15
+remote_max_retries: 3
+remote_read_timeout_secs: 60.0
+repodata_fns:
+  - current_repodata.json
+  - repodata.json
+repodata_threads: None
+repodata_use_zst: True
+report_errors: None
+restore_free_channel: False
+rollback_enabled: True
+root_prefix: /home/praveen/miniforge3
+safety_checks: warn
+sat_solver: pycosat
+separate_format_cache: False
+shortcuts: True
+shortcuts_only: []
+show_channel_urls: True
+signing_metadata_url_base: None
+solver: libmamba
+solver_ignore_timestamps: False
+ssl_verify: True
+subdir: linux-64
+subdirs:
+  - linux-64
+  - noarch
+target_prefix_override: 
+trace: False
+track_features: []
+unsatisfiable_hints: True
+unsatisfiable_hints_check_depth: 2
+update_modifier: update_specs
+use_index_cache: False
+use_local: False
+use_only_tar_bz2: None
+verbosity: 0
+verify_threads: 1
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --show [K-sources
+[?2004l==> /home/praveen/miniforge3/.condarc <==
+channels:
+  - conda-forge
+
+==> /home/praveen/.condarc <==
+auto_update_conda: False
+auto_activate_base: False
+changeps1: False
+env_prompt: ({name})
+create_default_packages:
+  - pip
+  - numpy
+channel_priority: strict
+channels:
+  - conda-forge
+show_channel_urls: True
+console: colors
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set execute_threads 2[27mconda config --set execute_threads 2
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set default_threads 2[27mconda config --set default_threads 2
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set verify_threads 4[27mconda config --set verify_threads 4[K2[K4[K2
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set verify_threads 2[1P[1P[1P[1P[1P[1P[1@r[1@e[1@p[1@o[1@d[1@a[1@t[1@a
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mnano ~/.condarc[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano ~/.condarc
+[A
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dconsole: colors[14dexecute_threads: 2[15ddefault_threads: 2[16dverify_threads: 2[17drepodata_threads: 2[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[19d[K[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[20d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ nano ~/.condarcconda config --set repodata_threads 2[2Pverify[C[C[C[C[C[C[C[C[C[C[K1
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mnano ~/.condarc[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano ~/.condarc
+[A
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dconsole: colors[14dexecute_threads: 2[15ddefault_threads: 2[16dverify_threads: 1[17drepodata_threads: 2[2d[?12l[?25h[?25l[19d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda list conda-build[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda list conda-build
+[A
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/my_env:
+#
+# Name                    Version                   Build  Channel
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda search flask[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda search flask
+[A
+[?2004lWARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+Loading channels: - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+/ - \ | / - \ | / ^C- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+/ failed
+
+CondaError: KeyboardInterrupt
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda search flasklist conda-build[7Pnano ~/.condarcconda config --set verify_threads 1[20Pnano ~/.condarcconda config --set repodata_threads 2[2Pverify[C[C[C[C[C[C[C[C[C[C[1@default[C[C[C[C[C[C[C[C[C[Cexecute[C[C[C[C[C[C[C[C[C[C[9Phow-sources[Ket console colorsupdate_dependencies True[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreate_default_packages pip
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P--show ssl_verify
+[?2004lssl_verify: True
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --show ssl_verify[12Psearch flasklist conda-build[7Pnano ~/.condarcconda config --set verify_threads 1[20Pnano ~/.condarcconda config --set repodata_threads 2[2Pverify[C[C[C[C[C[C[C[C[C[C[1@default[C[C[C[C[C[C[C[C[C[Cexecute[C[C[C[C[C[C[C[C[C[C[9Phow-sources[Ket console colorsupdate_dependencies True[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd create_default_packages pip[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcreate_default_packages pip
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P--show ssl_verify[6@remove-key[C[C[C[C[C[C[C[C[C[C[C[6Pshow[C[C[C[C[C[C[C[C[C[C[C[6@remove-key[C[C[C[C[C[C[C[C[C[C[C[6Pshow[C[C[C[C[C[C[C[C[C[C[Cet ssl_verify True[4Phow ssl_verifyet ssl_verify truststore[10Phow ssl_verifyet ssl_verify False
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify False[5Phow ssl_verify[12Psearch flask
+[?2004lWARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+Loading channels: - \ | / - failed
+
+UnavailableInvalidChannel: HTTP 403 FORBIDDEN for channel conda-forge <https://conda.anaconda.org/conda-forge>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda search [K[K[K[K[K[K[Ku[Kinstall flask
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / failed
+
+UnavailableInvalidChannel: HTTP 403 FORBIDDEN for channel conda-forge <https://conda.anaconda.org/conda-forge>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda install flask[1Psearch[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(reverse-i-search)`': [Kt': conda config --se[7mt[27m ssl_verify Falser': conda config --set ssl_verify [7mtr[27muststore[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu': conda config --set ssl_verify [7mtru[27mststore[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs': conda config --set ssl_verify [7mtrus[27mtstore([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify truststore[C[C[C
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set ssl_verify truststore[21Pinstall flask
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+| / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+/ - \ ^C| / - \ | / - \ | / - \ | / - \ | / - \ | ^Cfailed
+
+CondaError: KeyboardInterrupt
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda install flask[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K(reverse-i-search)`': [Kt': conda config --set ssl_verify trusts[7mt[27more[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr': conda config --set ssl_verify [7mtr[27muststore[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu': conda config --set ssl_verify [7mtru[27mststore[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce': conda config --set show_channel_urls [7mtrue[27m([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set show_channel_urls true [A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P true[1Ptrue[1Prue[1Pue[1Pe[Kconda config --getset auto_update_conda false[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Phow-sources
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cget channels[K[3Preate -h[1Plean -a[-h] [-a]my-project[K--help[1Pclean my-project[1P[-h] [-a]-a[Kreate -honfig --get channelsshow-sourceset auto_update_conda false[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cget[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kconda config --describeinfo[Kexport CONDA_AUTO_ACTIVATE_BASE=false[18Pconda activate [-h][2P-hcompare -n my-project ../environment2.yaml [A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[Cdoctor[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenv config vars listexit[Kcd test-repo-mle/[7Pgit branchstatus[1Padd .statusadd my_conda_sessionstatus[Kcommit -m "Conda session files"[2Ppush origin dev/assignment_1 add .[Kcommit -m "Gitignore update"push origin dev/assignment_1 [19Pcd my_project/git lfs track "EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv"[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[19Padd .gitattributes
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CEPA_SmartLocationDatabase_V3_Jan_2021_Final.csv[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[Ccommit -m "Track csv file with Git LFS"[K[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[9Ppush origin dev/assignment_1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcommit -m "Conda session files"[3Ppush origin dev/assignment_1cd ..[Kgit statuspush origin dev/assignment_1ls[Kgit status[6Pexitgit statuscd test-repo-mle/[7Pgit statuspush origin dev/assignment_1 [19Pconda env listremove --name py312 py39 pypy_env [A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9 [4@py_env[Clist[Kactivate my_env[11Pgit statusbranch -d experiment [8Pworktree listprune[1Plistbranch -D experimentworktree remove /mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training/test-repo-mle[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [21Pconda activate conda
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmy_env[4Pd test-repo-mle/ls[Kgit statusrebase --continue[11Pstatus[1Padd .statusrebase --continue[3Pabortcontinuecheckout dev/assignment_1 [5Pbranch -d experiment[C[8@push origin dev/assignment_1[Cbranch[Kstatuspip install git-filter-repogit push origin dev/assignment_1 --forceecho "my_project/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv" >> .gitignore[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [23Pgit add .gitignore
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Ignore large CSV file"[5Ppush origin dev/assignment_1[11Plfs track "*.csv"[11Pstatus[1Padd .statuscommit -m "Added attributes"push origin dev/assignment_1 --forcestatus[Kfilter-repo --path my_project/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv --invert-paths[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [14Ppip install git-filter-repo
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit filter-repo --path my_project/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv --invert-paths --force[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranchpush origin dev/assignment_1 init[Kstatus[1Padd .status[1Padd .commit -m "Updated test file"push origin dev/assignment_1 remot -v[Ke -vadd origin https://github.com/Prav-TA/test-repo-mle.git[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[1Ppush origin dev/assignment_1 --force
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccode .[K[4Plscd test-repo-mle/ls[Kgit statuspull origin dev/assignment_1 [16P--rebaseconda config --set changeps1 False[20Pnano ~/.bashrc[2@source[C[C[C[C[C[C[C[C[C[Cconda activate my_env[11Pgit statuscd test-repo-mle/ls[Kgit statusnano ~/.bashrc[2@source[C[C[C[C[C[C[C[C[C[Cconda activate my_envinfo[Kactivate my_env[3Pconfig --get$ conda config --set add_pip_as_python_dependency false[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [11Pconda config --show ssl_verify
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cet ssl_verify False[5Phow ssl_verifyet ssl_verify truststore[10Phow ssl_verifyet ssl_verify True[4Phow ssl_verify[6@remove-key[C[C[C[C[C[C[C[C[C[C[C[6Pshow[C[C[C[C[C[C[C[C[C[C[Cet ssl_verify True
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mSSL_NO_VERIFY=1 conda skeleton pypi panda[27m[7ms[27m[7m [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSSL_NO_VERIFY=1 conda skeleton pypi pandas
+[A
+[?2004lusage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'skeleton' (choose from 'activate', 'clean', 'commands', 'compare', 'config', 'create', 'deactivate', 'env', 'export', 'info', 'init', 'install', 'list', 'notices', 'package', 'doctor', 'repoquery', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade')
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mset SSL_NO_VERIFY=1[27mset SSL_NO_VERIFY=1
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ set SSL_NO_VERIFY=1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mconda skeleton pypi some-package[27mconda skeleton pypi some-package
+[?2004lusage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: argument COMMAND: invalid choice: 'skeleton' (choose from 'activate', 'clean', 'commands', 'compare', 'config', 'create', 'deactivate', 'env', 'export', 'info', 'init', 'install', 'list', 'notices', 'package', 'doctor', 'repoquery', 'remove', 'uninstall', 'rename', 'run', 'search', 'update', 'upgrade')
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set ssl_verify True    # E[27m[7mN[27m[7mABLE SSL verification again [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set ssl_verify True    # ENABLE SSL verification again
+[A
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ nano [K[K[K[K[K(reverse-i-search)`': [Kn': conda config --set ssl_verify True    # ENABLE SSL verification agai[7mn[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca': [7mna[27mno ~/.condarc[K[1@n': [7mnan[27m([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ nano ~/.condarc
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dconsole: colors[14dexecute_threads: 2[15ddefault_threads: 2[16dverify_threads: 1[17drepodata_threads: 2[18dssl_verify: true[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h7[2;18r8
+[1;21r[18;1H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[19d[K[?12l[?25h[15d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;19r8M[1;21r[2;1Hchannels:[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[20d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env liu[Kst
+[?2004lWARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+
+# conda environments:
+#
+                       /home/praveen/conda
+base                   /home/praveen/miniforge3
+gen_ai_env             /home/praveen/miniforge3/envs/gen_ai_env
+my-project             /home/praveen/miniforge3/envs/my-project
+my_env               * /home/praveen/miniforge3/envs/my_env
+rio_tinto              /home/praveen/miniforge3/envs/rio_tinto
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set pip_interop_enabled Tr[27m[7mu[27m[7me [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set pip_interop_enabled True
+[A
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set pip_interop_enabled True[A([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[Cenv list[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano ~/.condarc
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 18 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dconsole: colors[14dexecute_threads: 2[15ddefault_threads: 2[16dverify_threads: 1[17drepodata_threads: 2[18dssl_verify: true[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[19d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ cond [Ka create -n some_pip_test pu[Kythoin[K[Kn=3.7  imagesize=1.0
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+\ Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+| / - \ | / - \ | / - \ | / - \ | / - \ Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+| / - \ ^C| / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/linux-64/repodata.json.zst
+
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))': /conda-forge/noarch/repodata.json.zst
+
+failed
+
+CondaError: KeyboardInterrupt
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda create -n some_pip_test python=3.7 imagesize=1.0
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.11.3
+    latest version: 25.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/some_pip_test
+
+  added / updated specs:
+    - imagesize=1.0
+    - numpy
+    - pip
+    - python=3.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |      conda_forge           3 KB  conda-forge
+    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
+    imagesize-1.0.0            |             py_1           5 KB  conda-forge
+    ld_impl_linux-64-2.43      |       h712a8e2_4         656 KB  conda-forge
+    libblas-3.9.0              |31_h59b9bed_openblas          16 KB  conda-forge
+    libcblas-3.9.0             |31_he106b2a_openblas          16 KB  conda-forge
+    libgcc-ng-14.2.0           |       h69a702a_2          52 KB  conda-forge
+    libgfortran-14.2.0         |       h69a702a_2          52 KB  conda-forge
+    liblapack-3.9.0            |31_h7ac8fdf_openblas          16 KB  conda-forge
+    libstdcxx-ng-14.2.0        |       h4852527_2          53 KB  conda-forge
+    numpy-1.21.6               |   py37h976b520_0         6.1 MB  conda-forge
+    pip-24.0                   |     pyhd8ed1ab_0         1.3 MB  conda-forge
+    python-3.7.12              |hf930737_100_cpython        57.3 MB  conda-forge
+    python_abi-3.7             |          4_cp37m           6 KB  conda-forge
+    setuptools-69.0.3          |     pyhd8ed1ab_0         460 KB  conda-forge
+    wheel-0.42.0               |     pyhd8ed1ab_0          56 KB  conda-forge
+    xz-5.8.1                   |       hbcc6ac9_0          23 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        66.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2025.1.31-hbcca054_0 
+  imagesize          conda-forge/noarch::imagesize-1.0.0-py_1 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_4 
+  libblas            conda-forge/linux-64::libblas-3.9.0-31_h59b9bed_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-31_he106b2a_openblas 
+  libffi             conda-forge/linux-64::libffi-3.4.6-h2dba641_1 
+  libgcc             conda-forge/linux-64::libgcc-14.2.0-h767d61c_2 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-14.2.0-h69a702a_2 
+  libgfortran        conda-forge/linux-64::libgfortran-14.2.0-h69a702a_2 
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.2.0-hf1ad2bd_2 
+  libgomp            conda-forge/linux-64::libgomp-14.2.0-h767d61c_2 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-31_h7ac8fdf_openblas 
+  liblzma            conda-forge/linux-64::liblzma-5.8.1-hb9d3cd8_0 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.1-hb9d3cd8_0 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hd590300_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.29-pthreads_h94d23a6_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.49.1-hee588c1_2 
+  libstdcxx          conda-forge/linux-64::libstdcxx-14.2.0-h8f9b012_2 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-14.2.0-h4852527_2 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2 
+  ncurses            conda-forge/linux-64::ncurses-6.5-h2d0b736_3 
+  numpy              conda-forge/linux-64::numpy-1.21.6-py37h976b520_0 
+  openssl            conda-forge/linux-64::openssl-3.5.0-h7b32b05_0 
+  pip                conda-forge/noarch::pip-24.0-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.7.12-hf930737_100_cpython 
+  python_abi         conda-forge/linux-64::python_abi-3.7-4_cp37m 
+  readline           conda-forge/linux-64::readline-8.2-h8c095d6_2 
+  setuptools         conda-forge/noarch::setuptools-69.0.3-pyhd8ed1ab_0 
+  sqlite             conda-forge/linux-64::sqlite-3.49.1-h9eae976_2 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101 
+  wheel              conda-forge/noarch::wheel-0.42.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.8.1-hbcc6ac9_0 
+  xz-gpl-tools       conda-forge/linux-64::xz-gpl-tools-5.8.1-hbcc6ac9_0 
+  xz-tools           conda-forge/linux-64::xz-tools-5.8.1-hb9d3cd8_0 
+
+
+WARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+Proceed ([y]/n)? 
+
+WARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+
+Downloading and Extracting Packages:
+WARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+python-3.7.12        | 57.3 MB   |                                                                                           |   0% 
+numpy-1.21.6         | 6.1 MB    |                                                                                           |   0% [A
+
+pip-24.0             | 1.3 MB    |                                                                                           |   0% [A[A
+
+
+ld_impl_linux-64-2.4 | 656 KB    |                                                                                           |   0% [A[A[A
+
+
+
+setuptools-69.0.3    | 460 KB    |                                                                                           |   0% [A[A[A[A
+
+
+
+
+wheel-0.42.0         | 56 KB     |                                                                                           |   0% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  | 53 KB     |                                                                                           |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-14.2.0     | 52 KB     |                                                                                           |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgfortran-14.2.0   | 52 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+xz-5.8.1             | 23 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_openmp_mutex-4.5    | 23 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 16 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 16 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 16 KB     |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.7       | 6 KB      |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imagesize-1.0.0      | 5 KB      |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      |                                                                                           |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   |                                                                                           |   0% 
+numpy-1.21.6         | 6.1 MB    | 2                                                                                         |   0% [Apython-3.7.12        | 57.3 MB   | 1                                                                                         |   0% 
+numpy-1.21.6         | 6.1 MB    | #5                                                                                        |   2% [Apython-3.7.12        | 57.3 MB   | 4                                                                                         |   1% 
+numpy-1.21.6         | 6.1 MB    | ####1                                                                                     |   5% [Apython-3.7.12        | 57.3 MB   | #                                                                                         |   1% 
+numpy-1.21.6         | 6.1 MB    | #########7                                                                                |  11% [Apython-3.7.12        | 57.3 MB   | #5                                                                                        |   2% 
+numpy-1.21.6         | 6.1 MB    | #################                                                                         |  19% [Apython-3.7.12        | 57.3 MB   | ##2                                                                                       |   2% 
+numpy-1.21.6         | 6.1 MB    | #####################6                                                                    |  24% [Apython-3.7.12        | 57.3 MB   | ###1                                                                                      |   3% 
+numpy-1.21.6         | 6.1 MB    | ###############################2                                                          |  35% [Apython-3.7.12        | 57.3 MB   | ###9                                                                                      |   4% 
+numpy-1.21.6         | 6.1 MB    | #######################################4                                                  |  44% [Apython-3.7.12        | 57.3 MB   | ####6                                                                                     |   5% 
+numpy-1.21.6         | 6.1 MB    | #################################################6                                        |  56% [Apython-3.7.12        | 57.3 MB   | #####6                                                                                    |   6% 
+numpy-1.21.6         | 6.1 MB    | #############################################################                             |  69% [Apython-3.7.12        | 57.3 MB   | ######5                                                                                   |   7% 
+numpy-1.21.6         | 6.1 MB    | ######################################################################4                   |  79% [Apython-3.7.12        | 57.3 MB   | #######4                                                                                  |   8% 
+numpy-1.21.6         | 6.1 MB    | ################################################################################8         |  91% [A
+numpy-1.21.6         | 6.1 MB    | ######################################################################################### | 100% [Apython-3.7.12        | 57.3 MB   | ########2                                                                                 |   9% 
+
+pip-24.0             | 1.3 MB    | #                                                                                         |   1% [A[Apython-3.7.12        | 57.3 MB   | #########2                                                                                |  10% 
+
+pip-24.0             | 1.3 MB    | #########################################7                                                |  47% [A[Apython-3.7.12        | 57.3 MB   | ##########2                                                                               |  12% 
+
+pip-24.0             | 1.3 MB    | ###################################################################################4      |  94% [A[A
+
+pip-24.0             | 1.3 MB    | ######################################################################################### | 100% [A[Apython-3.7.12        | 57.3 MB   | ###########1                                                                              |  13% python-3.7.12        | 57.3 MB   | ############2                                                                             |  14% 
+
+
+ld_impl_linux-64-2.4 | 656 KB    | ##1                                                                                       |   2% [A[A[A
+
+pip-24.0             | 1.3 MB    | ######################################################################################### | 100% [A[Apython-3.7.12        | 57.3 MB   | #############1                                                                            |  15% 
+
+
+ld_impl_linux-64-2.4 | 656 KB    | ##################################################################################5       |  93% [A[A[A
+
+
+ld_impl_linux-64-2.4 | 656 KB    | ######################################################################################### | 100% [A[A[Apython-3.7.12        | 57.3 MB   | ##############3                                                                           |  16% 
+
+
+ld_impl_linux-64-2.4 | 656 KB    | ######################################################################################### | 100% [A[A[A
+
+
+
+setuptools-69.0.3    | 460 KB    | ###                                                                                       |   3% [A[A[A[Apython-3.7.12        | 57.3 MB   | ###############3                                                                          |  17% 
+
+
+
+setuptools-69.0.3    | 460 KB    | ######################################################################################### | 100% [A[A[A[A
+
+
+
+setuptools-69.0.3    | 460 KB    | ######################################################################################### | 100% [A[A[A[A
+
+
+
+setuptools-69.0.3    | 460 KB    | ######################################################################################### | 100% [A[A[A[Apython-3.7.12        | 57.3 MB   | ################3                                                                         |  18% 
+
+
+
+
+wheel-0.42.0         | 56 KB     | #########################3                                                                |  28% [A[A[A[A[A
+
+
+
+
+wheel-0.42.0         | 56 KB     | ######################################################################################### | 100% [A[A[A[A[A
+
+
+
+
+wheel-0.42.0         | 56 KB     | ######################################################################################### | 100% [A[A[A[A[Apython-3.7.12        | 57.3 MB   | #################3                                                                        |  20% 
+
+
+
+
+
+libstdcxx-ng-14.2.0  | 53 KB     | ###########################                                                               |  30% [A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  | 53 KB     | ######################################################################################### | 100% [A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ##################3                                                                       |  21% 
+
+
+
+
+
+libstdcxx-ng-14.2.0  | 53 KB     | ######################################################################################### | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-14.2.0     | 52 KB     | ###########################1                                                              |  30% [A[A[A[A[A[A[A
+
+
+
+
+
+
+libgcc-ng-14.2.0     | 52 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ###################4                                                                      |  22% 
+
+
+
+
+
+
+libgcc-ng-14.2.0     | 52 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ####################4                                                                     |  23% 
+
+
+
+
+
+
+
+libgfortran-14.2.0   | 52 KB     | ###########################1                                                              |  30% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libgfortran-14.2.0   | 52 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A
+numpy-1.21.6         | 6.1 MB    | ######################################################################################### | 100% [A
+
+
+
+
+
+
+
+libgfortran-14.2.0   | 52 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | #####################4                                                                    |  24% 
+
+
+
+
+
+
+
+
+xz-5.8.1             | 23 KB     | #############################################################1                            |  69% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+xz-5.8.1             | 23 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ######################4                                                                   |  25% 
+
+
+
+
+
+
+
+
+xz-5.8.1             | 23 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+xz-5.8.1             | 23 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_openmp_mutex-4.5    | 23 KB     | #############################################################7                            |  69% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+_openmp_mutex-4.5    | 23 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | #######################5                                                                  |  26% 
+
+
+
+
+
+
+
+
+
+_openmp_mutex-4.5    | 23 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 16 KB     | ######################################################################################4   |  97% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ########################6                                                                 |  28% 
+
+
+
+
+
+
+
+
+
+
+libblas-3.9.0        | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | #########################6                                                                |  29% 
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 16 KB     | ######################################################################################8   |  98% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ##########################7                                                               |  30% 
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 16 KB     | ######################################################################################8   |  98% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ###########################7                                                              |  31% 
+
+
+
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | 16 KB     | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ############################8                                                             |  32% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.7       | 6 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.7       | 6 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+python_abi-3.7       | 6 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | #############################9                                                            |  34% python-3.7.12        | 57.3 MB   | ##############################9                                                           |  35% python-3.7.12        | 57.3 MB   | ################################                                                          |  36% python-3.7.12        | 57.3 MB   | #################################2                                                        |  37% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imagesize-1.0.0      | 5 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imagesize-1.0.0      | 5 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imagesize-1.0.0      | 5 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ##################################3                                                       |  39% python-3.7.12        | 57.3 MB   | ###################################3                                                      |  40% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_libgcc_mutex-0.1    | 3 KB      | ######################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Apython-3.7.12        | 57.3 MB   | ####################################3                                                     |  41% python-3.7.12        | 57.3 MB   | #####################################4                                                    |  42% python-3.7.12        | 57.3 MB   | ######################################4                                                   |  43% python-3.7.12        | 57.3 MB   | #######################################4                                                  |  44% python-3.7.12        | 57.3 MB   | ########################################3                                                 |  45% python-3.7.12        | 57.3 MB   | #########################################4                                                |  47% python-3.7.12        | 57.3 MB   | ##########################################6                                               |  48% python-3.7.12        | 57.3 MB   | ###########################################6                                              |  49% python-3.7.12        | 57.3 MB   | ############################################7                                             |  50% python-3.7.12        | 57.3 MB   | #############################################9                                            |  52% python-3.7.12        | 57.3 MB   | ###############################################1                                          |  53% python-3.7.12        | 57.3 MB   | ################################################4                                         |  54% python-3.7.12        | 57.3 MB   | #################################################8                                        |  56% python-3.7.12        | 57.3 MB   | ###################################################1                                      |  57% python-3.7.12        | 57.3 MB   | ####################################################4                                     |  59% python-3.7.12        | 57.3 MB   | #####################################################6                                    |  60% python-3.7.12        | 57.3 MB   | ######################################################9                                   |  62% python-3.7.12        | 57.3 MB   | ########################################################1                                 |  63% python-3.7.12        | 57.3 MB   | #########################################################4                                |  65% python-3.7.12        | 57.3 MB   | ##########################################################6                               |  66% python-3.7.12        | 57.3 MB   | ############################################################                              |  67% python-3.7.12        | 57.3 MB   | #############################################################4                            |  69% python-3.7.12        | 57.3 MB   | ##############################################################8                           |  71% python-3.7.12        | 57.3 MB   | ################################################################3                         |  72% python-3.7.12        | 57.3 MB   | #################################################################8                        |  74% python-3.7.12        | 57.3 MB   | ###################################################################3                      |  76% python-3.7.12        | 57.3 MB   | #####################################################################                     |  78% python-3.7.12        | 57.3 MB   | ######################################################################6                   |  79% python-3.7.12        | 57.3 MB   | ########################################################################1                 |  81% python-3.7.12        | 57.3 MB   | #########################################################################8                |  83% python-3.7.12        | 57.3 MB   | ###########################################################################4              |  85% python-3.7.12        | 57.3 MB   | #############################################################################1            |  87% python-3.7.12        | 57.3 MB   | ##############################################################################7           |  88% python-3.7.12        | 57.3 MB   | ################################################################################2         |  90% python-3.7.12        | 57.3 MB   | #################################################################################9        |  92% python-3.7.12        | 57.3 MB   | ###################################################################################4      |  94% python-3.7.12        | 57.3 MB   | #####################################################################################2    |  96% python-3.7.12        | 57.3 MB   | ######################################################################################8   |  98% python-3.7.12        | 57.3 MB   | ########################################################################################6 | 100% python-3.7.12        | 57.3 MB   | ######################################################################################### | 100% python-3.7.12        | 57.3 MB   | ######################################################################################### | 100%                                                                                                                                     
+                                                                                                                                    [A
+
+                                                                                                                                    [A[A
+
+
+                                                                                                                                    [A[A[A
+
+
+
+                                                                                                                                    [A[A[A[A
+
+
+
+
+                                                                                                                                    [A[A[A[A[A
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+WARNING conda.plugins.manager:get_reporter_backend(394): Unable to find reporter backend: "colors"; falling back to using "classic"
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate some_pip_test
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ co[K[Knano ~(reverse-i-search)`': nano ~[K(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~[C[6Preverse-i-search)`n': na[7mn[27m[1@a': [7mna[27mn[1@n': [7mnan[27m[1@o': [7mnano[27m ': [7mnano [27m~[1P': [7mnano[27m ~[1P': [7mnan[27mo[1P': [7mna[27mn[1P': [7mn[27ma(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~(failed reverse-i-search)`': nano ~[Creverse-i-search)`c': conda [7mc[27mreate -n some_pip_test python=3.7 imagesize=1.0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o': [7mco[27mnda c[1@n': [7mcon[27m[1@d': [7mcond[27m[1@a': [7mconda[27m[C[8@failed reverse-i-search)`condae': conda[1@x[C[C[C[1P[C[C[C[C[47Preverse-i-search)`conda': nano ~/.[7mconda[27mrc([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ nano ~/.condarc
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 18 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dconsole: colors[14dexecute_threads: 2[15ddefault_threads: 2[16dverify_threads: 1[17drepodata_threads: 2[18dssl_verify: true[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h7[2;18r8
+[1;21r[18;1Hpip_interop_enabled: true[?25l[?12l[?25h7[2;18r8
+[1;21r[18;1H[?25l[?12l[?25h[?25l[19d[K[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[1;81H(B[0;7m*[131G(B[m[13;19r[19;1H
+[1;21r[12;19Hdefault_threads: 2[12;19H[?12l[?25h[?25l[?12l[?25h[1P[?25l[19;54H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[12;18H[?25l[?12l[?25h[1P[?25l[?12l[?25h2efault_threads: 2[12;19H[?25l7[13;18r8[13dM[1;21r[12;19H[K[13default_threads: 2[?12l[?25h[?25l[?12l[?25hdefault_threads: 2d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25holors[K[?25l[?12l[?25hlors[K[?25l[?12l[?25hors[K[?25l[19d[K[?12l[?25h[11drs[K[?25l[?12l[?25hs[K[?25l[?12l[?25h[K[?25l[11;19r[19;1H
+[1;21r[11;1H[?12l[?25h[?25l[19;60H(B[0;7m[ Writing... ](B[m[1;81H(B[0;7m [131G(B[m[19;58H(B[0;7m[ Wrote 17 lines ](B[m[?12l[?25h[11d[?25l[20;17H[17X[20;34H(B[0;7mM-D(B[m DOS Format       [20;65H  (B[0;7mM-A(B[m Append[23X[20;100H(B[0;7mM-B(B[m Backup File[K[21;2H(B[0;7mC(B[m Cancel[17G[17X[21;34H(B[0;7mM-M(B[m Mac Format         [21;65H  (B[0;7mM-P(B[m Prepend[22X[21;100H(B[0;7m^T(B[m Browse[K[19d(B[0;7mFile Name to Write: /home/praveen/.condarc                                                                                          [19;43H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[19;59H[1K (B[0;7m[ Writing... ](B[m[K[1;131H[19;58H(B[0;7m[ Wrote 17 lines ](B[m[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo        (B[0;7mM-A(B[m Set Mark[21;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo        (B[0;7mM-6(B[m Copy[?12l[?25h[11d[?25l[19d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ (reverse-i-search)`': [Kb': conda config --set pip_interop_ena[7mb[27mled True[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pa': source ~/.[7mba[27mshrcs': source ~/.[7mbas[27mhrc([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ source ~/.bashrc
+[?2004l
+EnvironmentNameNotFound: Could not find conda environment: SSL_NO_VERIFY=1
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ source ~/.bashrc[1Pnano ~/.condarc
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;60H(B[0;7m[ Reading... ](B[m[19;58H(B[0;7m[ Read 17 lines ](B[m[H(B[0;7m  GNU nano 7.2                                           /home/praveen/.condarc                                                     [1;131H(B[m[20d(B[0;7m^G(B[m Help[20;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[20;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[20;113H(B[0;7mM-A(B[m Set Mark[21d(B[0;7m^X(B[m Exit[21;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[21;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[21;113H(B[0;7mM-6(B[m Copy[2dchannels:[3;3H- conda-forge[4denv_prompt: ({name})[5dchannel_priority: strict[6dcreate_default_packages:[7;3H- pip[8;3H- numpy[9dauto_activate_base: false[10dauto_update_conda: false[11dshow_channel_urls: true[12dchangeps1: false[13dexecute_threads: 2[14ddefault_threads: 2[15dverify_threads: 1[16drepodata_threads: 2[17dssl_verify: true[18dpip_interop_enabled: true[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[19d[K[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h7[2;19r8[19d
+[1;21r[18;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[20d[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ nano ~/.condarcsource ~/.bashrc
+[?2004l
+EnvironmentNameNotFound: Could not find conda environment: SSL_NO_VERIFY=1
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda info --envs[27mconda info --envs
+[?2004l
+# conda environments:
+#
+                       /home/praveen/conda
+base                   /home/praveen/miniforge3
+gen_ai_env             /home/praveen/miniforge3/envs/gen_ai_env
+my-project             /home/praveen/miniforge3/envs/my-project
+my_env               * /home/praveen/miniforge3/envs/my_env
+rio_tinto              /home/praveen/miniforge3/envs/rio_tinto
+some_pip_test          /home/praveen/miniforge3/envs/some_pip_test
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda activate some_pip_test
+[?2004l[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda list
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+ca-certificates           2025.1.31            hbcca054_0    conda-forge
+imagesize                 1.0.0                      py_1    conda-forge
+ld_impl_linux-64          2.43                 h712a8e2_4    conda-forge
+libblas                   3.9.0           31_h59b9bed_openblas    conda-forge
+libcblas                  3.9.0           31_he106b2a_openblas    conda-forge
+libffi                    3.4.6                h2dba641_1    conda-forge
+libgcc                    14.2.0               h767d61c_2    conda-forge
+libgcc-ng                 14.2.0               h69a702a_2    conda-forge
+libgfortran               14.2.0               h69a702a_2    conda-forge
+libgfortran5              14.2.0               hf1ad2bd_2    conda-forge
+libgomp                   14.2.0               h767d61c_2    conda-forge
+liblapack                 3.9.0           31_h7ac8fdf_openblas    conda-forge
+liblzma                   5.8.1                hb9d3cd8_0    conda-forge
+liblzma-devel             5.8.1                hb9d3cd8_0    conda-forge
+libnsl                    2.0.1                hd590300_0    conda-forge
+libopenblas               0.3.29          pthreads_h94d23a6_0    conda-forge
+libsqlite                 3.49.1               hee588c1_2    conda-forge
+libstdcxx                 14.2.0               h8f9b012_2    conda-forge
+libstdcxx-ng              14.2.0               h4852527_2    conda-forge
+libzlib                   1.3.1                hb9d3cd8_2    conda-forge
+ncurses                   6.5                  h2d0b736_3    conda-forge
+numpy                     1.21.6           py37h976b520_0    conda-forge
+openssl                   3.5.0                h7b32b05_0    conda-forge
+pip                       24.0               pyhd8ed1ab_0    conda-forge
+python                    3.7.12          hf930737_100_cpython    conda-forge
+python_abi                3.7                     4_cp37m    conda-forge
+readline                  8.2                  h8c095d6_2    conda-forge
+setuptools                69.0.3             pyhd8ed1ab_0    conda-forge
+sqlite                    3.49.1               h9eae976_2    conda-forge
+tk                        8.6.13          noxft_h4845f30_101    conda-forge
+wheel                     0.42.0             pyhd8ed1ab_0    conda-forge
+xz                        5.8.1                hbcc6ac9_0    conda-forge
+xz-gpl-tools              5.8.1                hbcc6ac9_0    conda-forge
+xz-tools                  5.8.1                hb9d3cd8_0    conda-forge
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda search imagesize
+[?2004lLoading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+# Name                       Version           Build  Channel             
+imagesize                      0.7.1          py27_0  conda-forge         
+imagesize                      0.7.1          py34_0  conda-forge         
+imagesize                      0.7.1          py35_0  conda-forge         
+imagesize                      0.7.1          py36_0  conda-forge         
+imagesize                      1.0.0          py27_0  conda-forge         
+imagesize                      1.0.0          py35_0  conda-forge         
+imagesize                      1.0.0          py36_0  conda-forge         
+imagesize                      1.0.0            py_1  conda-forge         
+imagesize                      1.1.0            py_0  conda-forge         
+imagesize                      1.2.0            py_0  conda-forge         
+imagesize                      1.3.0    pyhd8ed1ab_0  conda-forge         
+imagesize                      1.4.0    pyhd8ed1ab_0  conda-forge         
+imagesize                      1.4.1    pyhd8ed1ab_0  conda-forge         
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda list -n <env_name> numpy[27mconda list -n <env_name> numpy[C[C[C[C[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1P numpy[1Pnumpy[1P numpy[1P numpy[1Pnumpy[1Pumpy[1Pmpy[1Ppy[1Py[Kimagesize
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.0.0                      py_1    conda-forge
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ pip ia[Knstall imagesize
+[?2004lRequirement already satisfied: imagesize in /home/praveen/miniforge3/envs/some_pip_test/lib/python3.7/site-packages (1.0.0)
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ pip install imagesize[1Pconda list[C[C[C[C[C[C[C[C[C[C
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.0.0                      py_1    conda-forge
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mpip install -U imagesize[27mpip install -U imagesize
+[?2004lRequirement already satisfied: imagesize in /home/praveen/miniforge3/envs/some_pip_test/lib/python3.7/site-packages (1.0.0)
+Collecting imagesize
+  Downloading imagesize-1.4.1-py2.py3-none-any.whl.metadata (1.5 kB)
+Downloading imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
+Installing collected packages: imagesize
+  Attempting uninstall: imagesize
+    Found existing installation: imagesize 1.0.0
+    Uninstalling imagesize-1.0.0:
+      Successfully uninstalled imagesize-1.0.0
+Successfully installed imagesize-1.4.1
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ pip install -U imagesize[4Pconda list[C[C[C[C[C[C[C[C[C[C
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.4.1                    pypi_0    pypi
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda list imagesize[4@pip install -U[C[C[C[C[C[C[C[C[C[C[4Pconda list[C[C[C[C[C[C[C[C[C[C[1@pip install[C[C[C[C[C[C[C[C[C[C[1Pconda list[C[C[C[C[C[C[C[C[C[C[2@search[C[C[C[C[C[C[C[C[C[Clist[Kactivate some_pip_test[11Pinfo --envs[1Psource ~/.bashrcconda info --envsactivate some_pip_testlist[Ksearch imagesize[2Plist[C[C[C[C[C[C[C[C[C[C[1@pip install[C[C[C[C[C[C[C[C[C[C[1Pconda list[C[C[C[C[C[C[C[C[C[C[4@pip install -U[C[C[C[C[C[C[C[C[C[C[4Pconda list[C[C[C[C[C[C[C[C[C[C[1@pip install[C[C[C[C[C[C[C[C[C[C[1Pconda list[C[C[C[C[C[C[C[C[C[C[2@search[C[C[C[C[C[C[C[C[C[Clist[Kactivate some_pip_test[11Pinfo --envsactivate some_pip_test[11Pinfo --envs[1Psource ~/.bashrc[1Pnano ~/.condarcsource ~/.bashrc[1Pnano ~/.condarcconda create -n some_pip_test python=3.7 imagesize=1.0[A([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [19Pnano ~/.condarc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set pip_interop_enabled True[A([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[Cenv list[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconfig --set pip_interop_enabled True
+[?2004l[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set pip_interop_enabled True[A([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[14Plist imagesize
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@pip install -U[C[C[C[C[C[C[C[C[C[C[4Pconda list[C[C[C[C[C[C[C[C[C[C[4@pip install -U[C[C[C[C[C[C[C[C[C[C
+[?2004lRequirement already satisfied: imagesize in /home/praveen/miniforge3/envs/some_pip_test/lib/python3.7/site-packages (1.4.1)
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ pip install -U imagesizeconda config --set pip_interop_enabled True[A([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [C[C[C[C[C[C[14Plist imagesize
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.4.1                    pypi_0    pypi
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda install imagesize=1.0
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ done
+Solving environment: / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.11.3
+    latest version: 25.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/some_pip_test
+
+  added / updated specs:
+    - imagesize=1.0
+
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  imagesize               pypi/pypi::imagesize-1.4.1-pypi_0 --> conda-forge/noarch::imagesize-1.0.0-py_1 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ done
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda install imagesize=1.0[7Plist imagesize
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.0.0                      py_1    conda-forge
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda list imagesizeinstall imagesize=1.0[7Plist imagesize[4@pip install -U[C[C[C[C[C[C[C[C[C[C
+[?2004lRequirement already satisfied: imagesize in /home/praveen/miniforge3/envs/some_pip_test/lib/python3.7/site-packages (1.0.0)
+Collecting imagesize
+  Using cached imagesize-1.4.1-py2.py3-none-any.whl.metadata (1.5 kB)
+Using cached imagesize-1.4.1-py2.py3-none-any.whl (8.8 kB)
+Installing collected packages: imagesize
+  Attempting uninstall: imagesize
+    Found existing installation: imagesize 1.0.0
+    Uninstalling imagesize-1.0.0:
+      Successfully uninstalled imagesize-1.0.0
+Successfully installed imagesize-1.4.1
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ pip install -U imagesize[4Pconda list[C[C[C[C[C[C[C[C[C[C
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+imagesize                 1.4.1                    pypi_0    pypi
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda list imagesize[4@pip install -U[C[C[C[C[C[C[C[C[C[C[4Pconda list[C[C[C[C[C[C[C[C[C[Cinstall imagesize=1.0
+[?2004lChannels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - done
+Solving environment: | / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 24.11.3
+    latest version: 25.3.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/some_pip_test
+
+  added / updated specs:
+    - imagesize=1.0
+
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  imagesize               pypi/pypi::imagesize-1.4.1-pypi_0 --> conda-forge/noarch::imagesize-1.0.0-py_1 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / done
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env list
+[?2004l
+# conda environments:
+#
+                       /home/praveen/conda
+base                   /home/praveen/miniforge3
+gen_ai_env             /home/praveen/miniforge3/envs/gen_ai_env
+my-project             /home/praveen/miniforge3/envs/my-project
+my_env                 /home/praveen/miniforge3/envs/my_env
+rio_tinto              /home/praveen/miniforge3/envs/rio_tinto
+some_pip_test        * /home/praveen/miniforge3/envs/some_pip_test
+
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ [7mconda config --set restore_free_ch[27m[7ma[27m[7mnnel true [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconda config --set restore_free_channel true
+[A
+[?2004l[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda config --set restore_free_channel true[K[K[K[Kg[Kfalse
+[?2004l[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda clean -a
+[?2004lWill remove 17 (66.2 MB) tarball(s).
+Proceed ([y]/n)? 
+
+Will remove 1 index cache(s).
+Proceed ([y]/n)? 
+
+Will remove 210 (2.56 GB) package(s).
+Proceed ([y]/n)? 
+
+There are no tempfile(s) to remove.
+There are no logfile(s) to remove.
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda info
+[?2004l
+     active environment : some_pip_test
+    active env location : /home/praveen/miniforge3/envs/some_pip_test
+            shell level : 8
+       user config file : /home/praveen/.condarc
+ populated config files : /home/praveen/miniforge3/.condarc
+                          /home/praveen/.condarc
+          conda version : 24.11.3
+    conda-build version : not installed
+         python version : 3.12.7.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=skylake
+                          __conda=24.11.3=0
+                          __glibc=2.39=0
+                          __linux=5.15.167.4=0
+                          __unix=0=0
+       base environment : /home/praveen/miniforge3  (writable)
+      conda av data dir : /home/praveen/miniforge3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://conda.anaconda.org/conda-forge/linux-64
+                          https://conda.anaconda.org/conda-forge/noarch
+          package cache : /home/praveen/miniforge3/pkgs
+                          /home/praveen/.conda/pkgs
+       envs directories : /home/praveen/miniforge3/envs
+                          /home/praveen/.conda/envs
+               platform : linux-64
+             user-agent : conda/24.11.3 requests/2.32.3 CPython/3.12.7 Linux/5.15.167.4-microsoft-standard-WSL2 ubuntu/24.04.2 glibc/2.39 solver/libmamba conda-libmamba-solver/24.9.0 libmambapy/1.5.9
+                UID:GID : 1000:1000
+             netrc file : None
+           offline mode : False
+
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda list
+[?2004l# packages in environment at /home/praveen/miniforge3/envs/some_pip_test:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+_openmp_mutex             4.5                       2_gnu    conda-forge
+ca-certificates           2025.1.31            hbcca054_0    conda-forge
+imagesize                 1.0.0                      py_1    conda-forge
+ld_impl_linux-64          2.43                 h712a8e2_4    conda-forge
+libblas                   3.9.0           31_h59b9bed_openblas    conda-forge
+libcblas                  3.9.0           31_he106b2a_openblas    conda-forge
+libffi                    3.4.6                h2dba641_1    conda-forge
+libgcc                    14.2.0               h767d61c_2    conda-forge
+libgcc-ng                 14.2.0               h69a702a_2    conda-forge
+libgfortran               14.2.0               h69a702a_2    conda-forge
+libgfortran5              14.2.0               hf1ad2bd_2    conda-forge
+libgomp                   14.2.0               h767d61c_2    conda-forge
+liblapack                 3.9.0           31_h7ac8fdf_openblas    conda-forge
+liblzma                   5.8.1                hb9d3cd8_0    conda-forge
+liblzma-devel             5.8.1                hb9d3cd8_0    conda-forge
+libnsl                    2.0.1                hd590300_0    conda-forge
+libopenblas               0.3.29          pthreads_h94d23a6_0    conda-forge
+libsqlite                 3.49.1               hee588c1_2    conda-forge
+libstdcxx                 14.2.0               h8f9b012_2    conda-forge
+libstdcxx-ng              14.2.0               h4852527_2    conda-forge
+libzlib                   1.3.1                hb9d3cd8_2    conda-forge
+ncurses                   6.5                  h2d0b736_3    conda-forge
+numpy                     1.21.6           py37h976b520_0    conda-forge
+openssl                   3.5.0                h7b32b05_0    conda-forge
+pip                       24.0               pyhd8ed1ab_0    conda-forge
+python                    3.7.12          hf930737_100_cpython    conda-forge
+python_abi                3.7                     4_cp37m    conda-forge
+readline                  8.2                  h8c095d6_2    conda-forge
+setuptools                69.0.3             pyhd8ed1ab_0    conda-forge
+sqlite                    3.49.1               h9eae976_2    conda-forge
+tk                        8.6.13          noxft_h4845f30_101    conda-forge
+wheel                     0.42.0             pyhd8ed1ab_0    conda-forge
+xz                        5.8.1                hbcc6ac9_0    conda-forge
+xz-gpl-tools              5.8.1                hbcc6ac9_0    conda-forge
+xz-tools                  5.8.1                hb9d3cd8_0    conda-forge
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda package -u
+[?2004l# prefix: /home/praveen/miniforge3/envs/some_pip_test
+# untracked files: 0
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda package -u[K[K[7m--pkg-name[27m--pkg-name
+[?2004lusage: conda package [-h] [-n ENVIRONMENT | -p PATH] [-w PATH [PATH ...]] [-r] [-u] [--pkg-name PKG_NAME]
+                     [--pkg-version PKG_VERSION] [--pkg-build PKG_BUILD]
+conda package: error: argument --pkg-name: expected one argument
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda rename -n some_pip_test new_ pip_y[Kyte[K[K[Ktest
+[?2004l
+CondaEnvException: Cannot rename the active environment
+
+[?2004h([32msome_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda deactivate
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda deactivaterename -n some_pip_test new_pip_test
+[?2004lSource:      /home/praveen/miniforge3/envs/some_pip_test
+Destination: /home/praveen/miniforge3/envs/new_pip_test
+Packages: 36
+Files: 0
+
+Downloading and Extracting Packages:
+_libgcc_mutex-0.1    |                                                                                                       |   0% 
+ld_impl_linux-64-2.4 |                                                                                                       |   0% [A
+
+python_abi-3.7       |                                                                                                       |   0% [A[A
+
+
+_openmp_mutex-4.5    |                                                                                                       |   0% [A[A[A
+
+
+
+libgcc-ng-14.2.0     |                                                                                                       |   0% [A[A[A[A
+
+
+
+
+libgfortran-14.2.0   |                                                                                                       |   0% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  |                                                                                                       |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+xz-5.8.1             |                                                                                                       |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libblas-3.9.0        |                                                                                                       |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libcblas-3.9.0       |                                                                                                       |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      |                                                                                                       |   0% [A[A[A[A[A[A[A[A[A[A
+ld_impl_linux-64-2.4 | ##4                                                                                                   |   2% [A_libgcc_mutex-0.1    | ##################################################################################################### | 100% _libgcc_mutex-0.1    | ##################################################################################################### | 100% _libgcc_mutex-0.1    | ##################################################################################################### | 100% 
+ld_impl_linux-64-2.4 | #########8                                                                                            |  10% [A
+
+python_abi-3.7       | ##################################################################################################### | 100% [A[A
+
+python_abi-3.7       | ##################################################################################################### | 100% [A[A
+
+python_abi-3.7       | ##################################################################################################### | 100% [A[A
+ld_impl_linux-64-2.4 | ################################                                                                      |  32% [A
+
+
+_openmp_mutex-4.5    | ######################################################################                                |  69% [A[A[A
+
+
+_openmp_mutex-4.5    | ##################################################################################################### | 100% [A[A[A
+ld_impl_linux-64-2.4 | ###########################################################1                                          |  59% [A
+
+
+_openmp_mutex-4.5    | ##################################################################################################### | 100% [A[A[A
+ld_impl_linux-64-2.4 | ################################################################################################1     |  95% [A
+ld_impl_linux-64-2.4 | ##################################################################################################### | 100% [A
+ld_impl_linux-64-2.4 | ##################################################################################################### | 100% [A
+
+
+
+libgcc-ng-14.2.0     | ##############################7                                                                       |  30% [A[A[A[A
+
+
+
+libgcc-ng-14.2.0     | ##################################################################################################### | 100% [A[A[A[A
+
+
+
+libgcc-ng-14.2.0     | ##################################################################################################### | 100% [A[A[A[A
+
+
+
+
+libgfortran-14.2.0   | ##############################7                                                                       |  30% [A[A[A[A[A
+
+
+
+
+libgfortran-14.2.0   | ##################################################################################################### | 100% [A[A[A[A[A
+
+
+
+
+libgfortran-14.2.0   | ##################################################################################################### | 100% [A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  | ##############################7                                                                       |  30% [A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  | ##################################################################################################### | 100% [A[A[A[A[A[A
+
+
+
+
+
+libstdcxx-ng-14.2.0  | ##################################################################################################### | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+xz-5.8.1             | #####################################################################3                                |  69% [A[A[A[A[A[A[A
+
+
+
+
+
+
+xz-5.8.1             | ##################################################################################################### | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+xz-5.8.1             | ##################################################################################################### | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | ##################################################################################################5   |  98% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libblas-3.9.0        | ##################################################################################################1   |  97% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libblas-3.9.0        | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libcblas-3.9.0       | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libblas-3.9.0        | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | ##################################################################################################5   |  98% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+liblapack-3.9.0      | ##################################################################################################### | 100% [A[A[A[A[A[A[A[A[A[A                                                                                                                                    
+                                                                                                                                    [A
+
+                                                                                                                                    [A[A
+
+
+                                                                                                                                    [A[A[A
+
+
+
+                                                                                                                                    [A[A[A[A
+
+
+
+
+                                                                                                                                    [A[A[A[A[A
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                                    [A[A[A[A[A[A[A[A[A[A
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/new_pip_test
+
+  added / updated specs:
+    - conda-forge/linux-64::_libgcc_mutex==0.1=conda_forge
+    - conda-forge/linux-64::_openmp_mutex==4.5=2_gnu
+    - conda-forge/linux-64::ca-certificates==2025.1.31=hbcca054_0
+    - conda-forge/linux-64::ld_impl_linux-64==2.43=h712a8e2_4
+    - conda-forge/linux-64::libblas==3.9.0=31_h59b9bed_openblas
+    - conda-forge/linux-64::libcblas==3.9.0=31_he106b2a_openblas
+    - conda-forge/linux-64::libffi==3.4.6=h2dba641_1
+    - conda-forge/linux-64::libgcc-ng==14.2.0=h69a702a_2
+    - conda-forge/linux-64::libgcc==14.2.0=h767d61c_2
+    - conda-forge/linux-64::libgfortran5==14.2.0=hf1ad2bd_2
+    - conda-forge/linux-64::libgfortran==14.2.0=h69a702a_2
+    - conda-forge/linux-64::libgomp==14.2.0=h767d61c_2
+    - conda-forge/linux-64::liblapack==3.9.0=31_h7ac8fdf_openblas
+    - conda-forge/linux-64::liblzma-devel==5.8.1=hb9d3cd8_0
+    - conda-forge/linux-64::liblzma==5.8.1=hb9d3cd8_0
+    - conda-forge/linux-64::libnsl==2.0.1=hd590300_0
+    - conda-forge/linux-64::libopenblas==0.3.29=pthreads_h94d23a6_0
+    - conda-forge/linux-64::libsqlite==3.49.1=hee588c1_2
+    - conda-forge/linux-64::libstdcxx-ng==14.2.0=h4852527_2
+    - conda-forge/linux-64::libstdcxx==14.2.0=h8f9b012_2
+    - conda-forge/linux-64::libzlib==1.3.1=hb9d3cd8_2
+    - conda-forge/linux-64::ncurses==6.5=h2d0b736_3
+    - conda-forge/linux-64::numpy==1.21.6=py37h976b520_0
+    - conda-forge/linux-64::openssl==3.5.0=h7b32b05_0
+    - conda-forge/linux-64::python==3.7.12=hf930737_100_cpython
+    - conda-forge/linux-64::python_abi==3.7=4_cp37m
+    - conda-forge/linux-64::readline==8.2=h8c095d6_2
+    - conda-forge/linux-64::sqlite==3.49.1=h9eae976_2
+    - conda-forge/linux-64::tk==8.6.13=noxft_h4845f30_101
+    - conda-forge/linux-64::xz-gpl-tools==5.8.1=hbcc6ac9_0
+    - conda-forge/linux-64::xz-tools==5.8.1=hb9d3cd8_0
+    - conda-forge/linux-64::xz==5.8.1=hbcc6ac9_0
+    - conda-forge/noarch::imagesize==1.0.0=py_1
+    - conda-forge/noarch::pip==24.0=pyhd8ed1ab_0
+    - conda-forge/noarch::setuptools==69.0.3=pyhd8ed1ab_0
+    - conda-forge/noarch::wheel==0.42.0=pyhd8ed1ab_0
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2025.1.31-hbcca054_0 
+  imagesize          conda-forge/noarch::imagesize-1.0.0-py_1 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_4 
+  libblas            conda-forge/linux-64::libblas-3.9.0-31_h59b9bed_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-31_he106b2a_openblas 
+  libffi             conda-forge/linux-64::libffi-3.4.6-h2dba641_1 
+  libgcc             conda-forge/linux-64::libgcc-14.2.0-h767d61c_2 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-14.2.0-h69a702a_2 
+  libgfortran        conda-forge/linux-64::libgfortran-14.2.0-h69a702a_2 
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.2.0-hf1ad2bd_2 
+  libgomp            conda-forge/linux-64::libgomp-14.2.0-h767d61c_2 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-31_h7ac8fdf_openblas 
+  liblzma            conda-forge/linux-64::liblzma-5.8.1-hb9d3cd8_0 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.1-hb9d3cd8_0 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hd590300_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.29-pthreads_h94d23a6_0 
+  libsqlite          conda-forge/linux-64::libsqlite-3.49.1-hee588c1_2 
+  libstdcxx          conda-forge/linux-64::libstdcxx-14.2.0-h8f9b012_2 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-14.2.0-h4852527_2 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2 
+  ncurses            conda-forge/linux-64::ncurses-6.5-h2d0b736_3 
+  numpy              conda-forge/linux-64::numpy-1.21.6-py37h976b520_0 
+  openssl            conda-forge/linux-64::openssl-3.5.0-h7b32b05_0 
+  pip                conda-forge/noarch::pip-24.0-pyhd8ed1ab_0 
+  python             conda-forge/linux-64::python-3.7.12-hf930737_100_cpython 
+  python_abi         conda-forge/linux-64::python_abi-3.7-4_cp37m 
+  readline           conda-forge/linux-64::readline-8.2-h8c095d6_2 
+  setuptools         conda-forge/noarch::setuptools-69.0.3-pyhd8ed1ab_0 
+  sqlite             conda-forge/linux-64::sqlite-3.49.1-h9eae976_2 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101 
+  wheel              conda-forge/noarch::wheel-0.42.0-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.8.1-hbcc6ac9_0 
+  xz-gpl-tools       conda-forge/linux-64::xz-gpl-tools-5.8.1-hbcc6ac9_0 
+  xz-tools           conda-forge/linux-64::xz-tools-5.8.1-hb9d3cd8_0 
+
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ done
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda act[K[K[Kin[K[Kenv list
+[?2004l
+# conda environments:
+#
+                       /home/praveen/conda
+base                   /home/praveen/miniforge3
+gen_ai_env             /home/praveen/miniforge3/envs/gen_ai_env
+my-project             /home/praveen/miniforge3/envs/my-project
+my_env               * /home/praveen/miniforge3/envs/my_env
+new_pip_test           /home/praveen/miniforge3/envs/new_pip_test
+rio_tinto              /home/praveen/miniforge3/envs/rio_tinto
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env list[K[K[K[K[K[K[K[Kactivate new_pip_test
+[?2004l[?2004h([32mnew_pip_test[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda remo[K[K[K[Kdeactivate
+[?2004l[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env remove -m[Kn new_pip_test
+[?2004l
+Remove all packages in environment /home/praveen/miniforge3/envs/new_pip_test:
+
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/new_pip_test
+
+
+The following packages will be REMOVED:
+
+  _libgcc_mutex-0.1-conda_forge
+  _openmp_mutex-4.5-2_gnu
+  ca-certificates-2025.1.31-hbcca054_0
+  imagesize-1.0.0-py_1
+  ld_impl_linux-64-2.43-h712a8e2_4
+  libblas-3.9.0-31_h59b9bed_openblas
+  libcblas-3.9.0-31_he106b2a_openblas
+  libffi-3.4.6-h2dba641_1
+  libgcc-14.2.0-h767d61c_2
+  libgcc-ng-14.2.0-h69a702a_2
+  libgfortran-14.2.0-h69a702a_2
+  libgfortran5-14.2.0-hf1ad2bd_2
+  libgomp-14.2.0-h767d61c_2
+  liblapack-3.9.0-31_h7ac8fdf_openblas
+  liblzma-5.8.1-hb9d3cd8_0
+  liblzma-devel-5.8.1-hb9d3cd8_0
+  libnsl-2.0.1-hd590300_0
+  libopenblas-0.3.29-pthreads_h94d23a6_0
+  libsqlite-3.49.1-hee588c1_2
+  libstdcxx-14.2.0-h8f9b012_2
+  libstdcxx-ng-14.2.0-h4852527_2
+  libzlib-1.3.1-hb9d3cd8_2
+  ncurses-6.5-h2d0b736_3
+  numpy-1.21.6-py37h976b520_0
+  openssl-3.5.0-h7b32b05_0
+  pip-24.0-pyhd8ed1ab_0
+  python-3.7.12-hf930737_100_cpython
+  python_abi-3.7-4_cp37m
+  readline-8.2-h8c095d6_2
+  setuptools-69.0.3-pyhd8ed1ab_0
+  sqlite-3.49.1-h9eae976_2
+  tk-8.6.13-noxft_h4845f30_101
+  wheel-0.42.0-pyhd8ed1ab_0
+  xz-5.8.1-hbcc6ac9_0
+  xz-gpl-tools-5.8.1-hbcc6ac9_0
+  xz-tools-5.8.1-hb9d3cd8_0
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - done
+Everything found within the environment (/home/praveen/miniforge3/envs/new_pip_test), including any conda environment configurations and any non-conda files, will be deleted. Do you wish to continue?
+ (y/[n])? y
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env remove -n new_pip_test[16Pdeactivateactivate new_pip_test[13Penv list
+[?2004l
+# conda environments:
+#
+                       /home/praveen/conda
+base                   /home/praveen/miniforge3
+gen_ai_env             /home/praveen/miniforge3/envs/gen_ai_env
+my-project             /home/praveen/miniforge3/envs/my-project
+my_env               * /home/praveen/miniforge3/envs/my_env
+rio_tinto              /home/praveen/miniforge3/envs/rio_tinto
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda env listremove -n new_pip_test[K[K[K[K[K[K[K[K[K[K[K[Kmy-project
+[?2004l
+Remove all packages in environment /home/praveen/miniforge3/envs/my-project:
+
+
+## Package Plan ##
+
+  environment location: /home/praveen/miniforge3/envs/my-project
+
+
+The following packages will be REMOVED:
+
+  _libgcc_mutex-0.1-conda_forge
+  _openmp_mutex-4.5-2_gnu
+  bzip2-1.0.8-h4bc722e_7
+  ca-certificates-2025.1.31-hbcca054_0
+  ld_impl_linux-64-2.43-h712a8e2_4
+  libblas-3.9.0-31_h59b9bed_openblas
+  libcblas-3.9.0-31_he106b2a_openblas
+  libexpat-2.7.0-h5888daf_0
+  libffi-3.4.6-h2dba641_1
+  libgcc-14.2.0-h767d61c_2
+  libgcc-ng-14.2.0-h69a702a_2
+  libgfortran-14.2.0-h69a702a_2
+  libgfortran5-14.2.0-hf1ad2bd_2
+  libgomp-14.2.0-h767d61c_2
+  liblapack-3.9.0-31_h7ac8fdf_openblas
+  liblzma-5.8.1-hb9d3cd8_0
+  libmpdec-4.0.0-h4bc722e_0
+  libopenblas-0.3.29-pthreads_h94d23a6_0
+  libsqlite-3.49.1-hee588c1_2
+  libstdcxx-14.2.0-h8f9b012_2
+  libuuid-2.38.1-h0b41bf4_0
+  libzlib-1.3.1-hb9d3cd8_2
+  ncurses-6.5-h2d0b736_3
+  numpy-2.2.4-py313h17eae1a_0
+  openssl-3.5.0-h7b32b05_0
+  pandas-2.2.3-py313ha87cce1_3
+  pip-25.0.1-pyh145f28c_0
+  python-3.13.3-hf636f53_100_cp313
+  python-dateutil-2.9.0.post0-pyhff2d567_1
+  python-tzdata-2025.2-pyhd8ed1ab_0
+  python_abi-3.13-6_cp313
+  pytz-2025.2-pyhd8ed1ab_0
+  readline-8.2-h8c095d6_2
+  six-1.17.0-pyhd8ed1ab_0
+  tk-8.6.13-noxft_h4845f30_101
+  tzdata-2025b-h78e105d_0
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ done
+Everything found within the environment (/home/praveen/miniforge3/envs/my-project), including any conda environment configurations and any non-conda files, will be deleted. Do you wish to continue?
+ (y/[n])? y
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ conda init -d
+[?2004lno change     /home/praveen/miniforge3/condabin/conda
+no change     /home/praveen/miniforge3/bin/conda
+no change     /home/praveen/miniforge3/bin/conda-env
+no change     /home/praveen/miniforge3/bin/activate
+no change     /home/praveen/miniforge3/bin/deactivate
+no change     /home/praveen/miniforge3/etc/profile.d/conda.sh
+no change     /home/praveen/miniforge3/etc/fish/conf.d/conda.fish
+no change     /home/praveen/miniforge3/shell/condabin/Conda.psm1
+modified      /home/praveen/miniforge3/shell/condabin/conda-hook.ps1
+no change     /home/praveen/miniforge3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/praveen/miniforge3/etc/profile.d/conda.csh
+modified      /home/praveen/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+[?2004h([32mmy_env[0m) praveen@TIGER05662:/mnt/c/Users/praveen.ravikuma/Documents/Projects/mle_training$ exit
+[?2004lexit
+
+Script done on 2025-04-15 07:32:46+00:00 [COMMAND_EXIT_CODE="0"]
